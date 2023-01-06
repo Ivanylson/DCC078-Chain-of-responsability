@@ -5,7 +5,7 @@ public class RespostaNeutra implements TipoResposta {
     private RespostaNeutra() {
     }
 
-    public static RespostaNeutra getNeutralAnswer() {
+    public static RespostaNeutra getRespostaNeutra() {
         return respostaNeutra;
     }
 }

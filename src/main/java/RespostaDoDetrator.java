@@ -5,7 +5,7 @@ public class RespostaDoDetrator implements TipoResposta {
     private RespostaDoDetrator() {
     }
 
-    public static RespostaDoDetrator getDetractorAnswer() {
+    public static RespostaDoDetrator getDetratorResposta() {
         return respostaDoDetrator;
     }
 }

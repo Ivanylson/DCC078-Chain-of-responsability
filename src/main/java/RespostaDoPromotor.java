@@ -4,7 +4,7 @@ public class RespostaDoPromotor implements TipoResposta {
 
     private RespostaDoPromotor(){};
 
-    public static RespostaDoPromotor getPromoterAnswer(){
+    public static RespostaDoPromotor getRespostaDoPromotor(){
         return respostaDoPromotor;
     }
 }

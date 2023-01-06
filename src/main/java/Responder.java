@@ -6,11 +6,11 @@ public class Responder {
         this.tipoResposta = tipoResposta;
     }
 
-    public TipoResposta getTypeAnswer(){
+    public TipoResposta getRespostaDoTipo(){
         return this.tipoResposta;
     }
 
-    public void setTypeAnswer(TipoResposta tipoResposta){
+    public void setTRespostaDoTipo(TipoResposta tipoResposta){
         this.tipoResposta = tipoResposta;
     }
 

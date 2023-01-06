@@ -1,10 +1,10 @@
 public class Gerente extends Usuario {
     public Gerente(Usuario usuario){
-        answerList.add(RespostaNeutra.getNeutralAnswer());
-        setUser(usuario);
+        listaDeRespostas.add(RespostaNeutra.getRespostaNeutra());
+        setUsuario(usuario);
     }
 
-    public String getRole(){
+    public String getPapel(){
         return "Gerente";
     }
 }

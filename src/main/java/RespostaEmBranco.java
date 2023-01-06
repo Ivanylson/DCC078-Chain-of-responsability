@@ -5,7 +5,7 @@ public class RespostaEmBranco implements TipoResposta {
     private RespostaEmBranco() {
     }
 
-    public static RespostaEmBranco getBlankAnswer() {
+    public static RespostaEmBranco getRespostaEmBranco() {
         return respostaEmBranco;
     }
 }

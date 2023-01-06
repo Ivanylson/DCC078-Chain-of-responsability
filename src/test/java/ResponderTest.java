@@ -17,22 +17,22 @@ class ResponderTest {
 
     @Test
     void deveRetornarRespostaPromotor(){
-        assertEquals("Atendente", atendente.seeAnswer(new Responder(RespostaDoPromotor.getPromoterAnswer())));
+        assertEquals("Atendente", atendente.verResposta(new Responder(RespostaDoPromotor.getRespostaDoPromotor())));
     }
 
     @Test
     void deveSerRetornarNeutroResposta(){
-        assertEquals("Gerente", atendente.seeAnswer(new Responder(RespostaNeutra.getNeutralAnswer())));
+        assertEquals("Gerente", atendente.verResposta(new Responder(RespostaNeutra.getRespostaNeutra())));
     }
 
     @Test
     void deveRetornarRespostaDetrator(){
-        assertEquals("Proprietario", atendente.seeAnswer(new Responder(RespostaDoDetrator.getDetractorAnswer())));
+        assertEquals("Proprietario", atendente.verResposta(new Responder(RespostaDoDetrator.getDetratorResposta())));
     }
 
     @Test
     void deveRetornarRespostaEmBranco(){
-        assertEquals("Responta em branco", atendente.seeAnswer(new Responder(RespostaEmBranco.getBlankAnswer())));
+        assertEquals("Responta em branco", atendente.verResposta(new Responder(RespostaEmBranco.getRespostaEmBranco())));
     }
 
 }

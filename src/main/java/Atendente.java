@@ -1,10 +1,10 @@
 public class Atendente extends Usuario {
     public Atendente(Usuario usuario){
-        answerList.add(RespostaDoPromotor.getPromoterAnswer());
-        setUser(usuario);
+        listaDeRespostas.add(RespostaDoPromotor.getRespostaDoPromotor());
+        setUsuario(usuario);
     }
 
-    public String getRole(){
+    public String getPapel(){
         return "Atendente";
     }
 }

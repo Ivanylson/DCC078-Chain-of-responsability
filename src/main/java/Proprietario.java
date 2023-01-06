@@ -1,10 +1,10 @@
 public class Proprietario extends Usuario {
     public Proprietario(Usuario usuario){
-        answerList.add(RespostaDoDetrator.getDetractorAnswer());
-        setUser(usuario);
+        listaDeRespostas.add(RespostaDoDetrator.getDetratorResposta());
+        setUsuario(usuario);
     }
 
-    public String getRole(){
+    public String getPapel(){
         return "Proprietario";
     }
 }
